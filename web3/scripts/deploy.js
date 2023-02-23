@@ -1,6 +1,6 @@
 async function main() {
   const Lock = await hre.ethers.getContractFactory("Whitelist");
-  const lock = await Lock.deploy(10);
+  const lock = await Lock.deploy('10');
 
   await lock.deployed();
 
