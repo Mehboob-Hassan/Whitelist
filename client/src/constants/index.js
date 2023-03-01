@@ -1,4 +1,4 @@
-export const WHITELIST_CONTRACT = '0x6BbA935140702b5aCE1EEcCCB38106Fd24Ac6149';
+export const WHITELIST_CONTRACT = '0x13F8afEd1306451FED491C81C590812c9DA041b3';
 export const abi =[
   {
     "inputs": [

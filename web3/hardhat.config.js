@@ -1,16 +1,15 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.9",
-  defaultNetwork: 'bnb',
+  defaultNetwork: 'goerli',
   networks: {
     hardhat: {},
-    bnb: {
-      
-      url: 'https://data-seed-prebsc-2-s3.binance.org:8545',
-      chainId : 97,
-      accounts : ['a50737d6641bf3269281273c683278e2fa2144112a4f55be6a7937d7c821703a']
+    goerli: {
+      url: process.env.HTTP_URL,
+      accounts : [process.env.PRIVATE_KEY]
     }
   }
 };

@@ -19,9 +19,9 @@ function App() {
 
       // If user is not connected to the Goerli network, let them know and throw an error
       const { chainId } = await web3Provider.getNetwork();
-      if (chainId !== 97) {
-        window.alert("Change the network to BCB");
-        throw new Error("Change network to BCB");
+      if (chainId !== 5) {
+        window.alert("Change the network to Goerli");
+        throw new Error("Change network to Goerli");
       }
 
 
