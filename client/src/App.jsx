@@ -145,9 +145,9 @@ function App() {
     <div>
       <div className="main">
         <div>
-          <h1 className="title">Welcome to Crypto Devs!</h1>
+          <h1 className="title">Welcome to Whitelist DApp!</h1>
           <div className="description">
-            Its an NFT collection for developers in Crypto.
+            Join Whitelist, to get tokens in our next DApp "ICO"
           </div>
           <div className="description">
             {numWhitelisted} have already joined the Whitelist
@@ -155,12 +155,12 @@ function App() {
           {renderButton()}
         </div>
         <div>
-          <img className="image" src="./crypto-devs.svg" />
+          <img className="image" src="./img1.jpg" />
         </div>
       </div>
 
       <footer className="footer">
-        Made with &#10084; by MH
+        Made with &#10084;&#65039; by MH-3.0
       </footer>
     </div>
   );
